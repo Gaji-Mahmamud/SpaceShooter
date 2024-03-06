@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=3 uid="uid://dhb063q04ovhn"]
+
+[ext_resource type="Texture2D" uid="uid://ccgjvds30xx0d" path="res://laser.png" id="1_ct24t"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wow08"]
+size = Vector2(7, 6)
+
+[node name="Laser" type="RigidBody2D"]
+gravity_scale = 0.0
+linear_velocity = Vector2(200, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_ct24t")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0.5, 0)
+shape = SubResource("RectangleShape2D_wow08")
+
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="."]
+position = Vector2(1.78814e-07, -7.15256e-07)
+scale = Vector2(0.3, 0.3)
+
+[connection signal="screen_exited" from="VisibleOnScreenNotifier2D" to="." method="queue_free"]
