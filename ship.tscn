@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://ship.gd" id="1_kqhqt"]
 [ext_resource type="Texture2D" uid="uid://bysymbsarns5t" path="res://ship.png" id="1_otklj"]
-[ext_resource type="PackedScene" uid="uid://caf0xjgj0dds6" path="res://explosion_creator.tscn" id="3_v6ykr"]
+[ext_resource type="PackedScene" uid="uid://caf0xjgj0dds6" path="res://effect_creator.tscn" id="3_ajkxy"]
 
 [node name="Ship" type="Area2D"]
 z_index = 1
@@ -14,6 +14,6 @@ texture = ExtResource("1_otklj")
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
 polygon = PackedVector2Array(-7, -4, -4, -4, -4, -7, -2, -7, 3, -2, 5, -2, 7, -1, 7, 1, 5, 2, 3, 2, -2, 7, -4, 7, -4, 4, -7, 4)
 
-[node name="ExplosionCreator" parent="." instance=ExtResource("3_v6ykr")]
+[node name="EffectCreator" parent="." instance=ExtResource("3_ajkxy")]
 
 [connection signal="area_entered" from="." to="." method="_on_area_entered"]

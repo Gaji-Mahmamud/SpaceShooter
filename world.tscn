@@ -2,12 +2,9 @@
 
 [ext_resource type="Script" path="res://world.gd" id="1_ad6jc"]
 [ext_resource type="PackedScene" uid="uid://cqaom2xxd8ffl" path="res://ship.tscn" id="1_eavik"]
+[ext_resource type="LabelSettings" uid="uid://db2l8crwp24te" path="res://label_settings.tres" id="2_14pse"]
 [ext_resource type="PackedScene" uid="uid://d3m4naafbaxj" path="res://enemy_spawner.tscn" id="2_wb08n"]
-[ext_resource type="FontFile" uid="uid://bsdox2lnuymfn" path="res://pixel_rpg.ttf" id="3_d1c2q"]
-
-[sub_resource type="LabelSettings" id="LabelSettings_25u65"]
-font = ExtResource("3_d1c2q")
-font_size = 6
+[ext_resource type="PackedScene" uid="uid://bwjix3gisp6pp" path="res://star_particles.tscn" id="5_eiusx"]
 
 [node name="World" type="Node2D"]
 script = ExtResource("1_ad6jc")
@@ -18,30 +15,20 @@ offset_bottom = 184.0
 color = Color(0, 0, 0, 1)
 metadata/_edit_lock_ = true
 
+[node name="ScoreLabel" type="Label" parent="."]
+z_index = 2
+offset_left = 64.0
+offset_right = 256.0
+offset_bottom = 16.0
+text = "score = 0"
+label_settings = ExtResource("2_14pse")
+horizontal_alignment = 1
+vertical_alignment = 1
+
 [node name="Ship" parent="." instance=ExtResource("1_eavik")]
 position = Vector2(24, 96)
 
 [node name="EnemySpawner" parent="." instance=ExtResource("2_wb08n")]
 position = Vector2(320, 0)
 
-[node name="ScoreLabel" type="Label" parent="."]
-offset_left = 64.0
-offset_right = 256.0
-offset_bottom = 16.0
-text = "score = 0"
-label_settings = SubResource("LabelSettings_25u65")
-horizontal_alignment = 1
-vertical_alignment = 1
-
-[node name="StarParticles" type="CPUParticles2D" parent="."]
-position = Vector2(320, 90)
-amount = 200
-lifetime = 7.0
-preprocess = 7.0
-emission_shape = 3
-emission_rect_extents = Vector2(1, 90)
-direction = Vector2(-1, 0)
-spread = 0.0
-gravity = Vector2(0, 0)
-initial_velocity_min = 50.0
-initial_velocity_max = 100.0
+[node name="StarParticles" parent="." instance=ExtResource("5_eiusx")]
