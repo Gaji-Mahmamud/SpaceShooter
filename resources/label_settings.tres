@@ -1,6 +1,6 @@
 [gd_resource type="LabelSettings" load_steps=2 format=3 uid="uid://db2l8crwp24te"]
 
-[ext_resource type="FontFile" uid="uid://bsdox2lnuymfn" path="res://pixel_rpg.ttf" id="1_2vce4"]
+[ext_resource type="FontFile" uid="uid://bsdox2lnuymfn" path="res://resources/pixel_rpg.ttf" id="1_2vce4"]
 
 [resource]
 font = ExtResource("1_2vce4")

@@ -1,8 +1,8 @@
 [gd_scene load_steps=4 format=3 uid="uid://crblpemnt371f"]
 
-[ext_resource type="LabelSettings" uid="uid://db2l8crwp24te" path="res://label_settings.tres" id="1_7qjne"]
-[ext_resource type="Script" path="res://game_over_screen.gd" id="1_8ippo"]
-[ext_resource type="PackedScene" uid="uid://bwjix3gisp6pp" path="res://star_particles.tscn" id="3_absqs"]
+[ext_resource type="LabelSettings" uid="uid://db2l8crwp24te" path="res://resources/label_settings.tres" id="1_7qjne"]
+[ext_resource type="Script" path="res://scripts/game_over_screen.gd" id="1_8ippo"]
+[ext_resource type="PackedScene" uid="uid://bwjix3gisp6pp" path="res://nodes/star_particles.tscn" id="3_absqs"]
 
 [node name="GameOverScreen" type="ColorRect"]
 anchors_preset = 15

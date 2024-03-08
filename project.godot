@@ -11,14 +11,14 @@ config_version=5
 [application]
 
 config/name="Space Shooter"
-run/main_scene="res://start_menu.tscn"
+run/main_scene="res://scenes/start_menu.tscn"
 config/features=PackedStringArray("4.2", "GL Compatibility")
-config/icon="res://icon.svg"
+config/icon="res://resources/icon.svg"
 
 [autoload]
 
-MusicPlayer="*res://music_player.tscn"
-SaveAndLoad="*res://save_and_load.gd"
+MusicPlayer="*res://nodes/music_player.tscn"
+SaveAndLoad="*res://scripts/save_and_load.gd"
 
 [display]
 

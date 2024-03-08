@@ -1,8 +1,8 @@
 [gd_scene load_steps=4 format=3 uid="uid://cl4hds4lpik40"]
 
-[ext_resource type="Script" path="res://start_menu.gd" id="1_qnidn"]
-[ext_resource type="LabelSettings" uid="uid://db2l8crwp24te" path="res://label_settings.tres" id="1_xenf8"]
-[ext_resource type="PackedScene" uid="uid://bwjix3gisp6pp" path="res://star_particles.tscn" id="3_ft20s"]
+[ext_resource type="Script" path="res://scripts/start_menu.gd" id="1_qnidn"]
+[ext_resource type="LabelSettings" uid="uid://db2l8crwp24te" path="res://resources/label_settings.tres" id="1_xenf8"]
+[ext_resource type="PackedScene" uid="uid://bwjix3gisp6pp" path="res://nodes/star_particles.tscn" id="3_ft20s"]
 
 [node name="StartMenu" type="ColorRect"]
 anchors_preset = 15

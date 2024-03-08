@@ -1,6 +1,6 @@
 extends Area2D
 
-const LASER_SCENE = preload("res://Laser.tscn")
+const LASER_SCENE = preload("res://nodes/laser.tscn")
 
 @export var speed = 100
 

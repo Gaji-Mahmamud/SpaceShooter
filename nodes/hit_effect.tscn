@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://x1tjpbknxs2s"]
 
-[ext_resource type="Script" path="res://hit_effect.gd" id="1_ffuxc"]
-[ext_resource type="AudioStream" uid="uid://donhfks1a1gdf" path="res://hit_sound.wav" id="2_4jfko"]
+[ext_resource type="Script" path="res://scripts/hit_effect.gd" id="1_ffuxc"]
+[ext_resource type="AudioStream" uid="uid://donhfks1a1gdf" path="res://resources/hit_sound.wav" id="2_4jfko"]
 
 [sub_resource type="Gradient" id="Gradient_i8r2d"]
 offsets = PackedFloat32Array(0, 0.626667, 1)

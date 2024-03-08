@@ -1,10 +1,10 @@
 [gd_scene load_steps=6 format=3 uid="uid://hxucbikome21"]
 
-[ext_resource type="Script" path="res://world.gd" id="1_ad6jc"]
-[ext_resource type="PackedScene" uid="uid://cqaom2xxd8ffl" path="res://ship.tscn" id="1_eavik"]
-[ext_resource type="LabelSettings" uid="uid://db2l8crwp24te" path="res://label_settings.tres" id="2_14pse"]
-[ext_resource type="PackedScene" uid="uid://d3m4naafbaxj" path="res://enemy_spawner.tscn" id="2_wb08n"]
-[ext_resource type="PackedScene" uid="uid://bwjix3gisp6pp" path="res://star_particles.tscn" id="5_eiusx"]
+[ext_resource type="Script" path="res://scripts/world.gd" id="1_ad6jc"]
+[ext_resource type="PackedScene" uid="uid://cqaom2xxd8ffl" path="res://nodes/ship.tscn" id="1_eavik"]
+[ext_resource type="LabelSettings" uid="uid://db2l8crwp24te" path="res://resources/label_settings.tres" id="2_14pse"]
+[ext_resource type="PackedScene" uid="uid://d3m4naafbaxj" path="res://nodes/enemy_spawner.tscn" id="2_wb08n"]
+[ext_resource type="PackedScene" uid="uid://bwjix3gisp6pp" path="res://nodes/star_particles.tscn" id="5_eiusx"]
 
 [node name="World" type="Node2D"]
 script = ExtResource("1_ad6jc")

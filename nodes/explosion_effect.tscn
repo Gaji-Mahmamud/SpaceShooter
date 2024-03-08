@@ -1,7 +1,7 @@
 [gd_scene load_steps=6 format=3 uid="uid://4ci1aow7e31k"]
 
-[ext_resource type="Texture2D" uid="uid://ddxx51jj111or" path="res://explosion.png" id="1_o83qd"]
-[ext_resource type="AudioStream" uid="uid://e3w6dkjv1bap" path="res://explosion_sound.wav" id="2_0jt4d"]
+[ext_resource type="Texture2D" uid="uid://ddxx51jj111or" path="res://resources/explosion.png" id="1_o83qd"]
+[ext_resource type="AudioStream" uid="uid://e3w6dkjv1bap" path="res://resources/explosion_sound.wav" id="2_0jt4d"]
 
 [sub_resource type="Animation" id="Animation_ouqhk"]
 length = 0.001

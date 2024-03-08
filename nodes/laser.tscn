@@ -1,9 +1,9 @@
 [gd_scene load_steps=6 format=3 uid="uid://dhb063q04ovhn"]
 
-[ext_resource type="Texture2D" uid="uid://ccgjvds30xx0d" path="res://laser.png" id="1_ct24t"]
-[ext_resource type="PackedScene" uid="uid://caf0xjgj0dds6" path="res://effect_creator.tscn" id="2_7fjnh"]
-[ext_resource type="PackedScene" uid="uid://x1tjpbknxs2s" path="res://hit_effect.tscn" id="3_6egbd"]
-[ext_resource type="AudioStream" uid="uid://donhfks1a1gdf" path="res://hit_sound.wav" id="4_q0ntl"]
+[ext_resource type="Texture2D" uid="uid://ccgjvds30xx0d" path="res://resources/laser.png" id="1_ct24t"]
+[ext_resource type="PackedScene" uid="uid://caf0xjgj0dds6" path="res://nodes/effect_creator.tscn" id="2_7fjnh"]
+[ext_resource type="PackedScene" uid="uid://x1tjpbknxs2s" path="res://nodes/hit_effect.tscn" id="3_6egbd"]
+[ext_resource type="AudioStream" uid="uid://donhfks1a1gdf" path="res://resources/hit_sound.wav" id="4_q0ntl"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_wow08"]
 size = Vector2(7, 6)

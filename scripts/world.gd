@@ -17,4 +17,4 @@ func _on_ship_ship_destroyed():
 			SaveAndLoad.save_highscore(score)
 	else:
 		SaveAndLoad.save_highscore(score)
-	get_tree().change_scene_to_file("res://game_over_screen.tscn")
+	get_tree().change_scene_to_file("res://scenes/game_over_screen.tscn")

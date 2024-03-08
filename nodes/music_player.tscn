@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://dnwc60axqo37f"]
 
-[ext_resource type="AudioStream" uid="uid://dg44st8i2ss7u" path="res://music.ogg" id="1_s16xf"]
+[ext_resource type="AudioStream" uid="uid://dg44st8i2ss7u" path="res://resources/music.ogg" id="1_s16xf"]
 
 [node name="MusicPlayer" type="AudioStreamPlayer"]
 stream = ExtResource("1_s16xf")

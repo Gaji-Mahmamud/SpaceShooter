@@ -1,8 +1,8 @@
 [gd_scene load_steps=4 format=3 uid="uid://cqaom2xxd8ffl"]
 
-[ext_resource type="Script" path="res://ship.gd" id="1_kqhqt"]
-[ext_resource type="Texture2D" uid="uid://bysymbsarns5t" path="res://ship.png" id="1_otklj"]
-[ext_resource type="PackedScene" uid="uid://caf0xjgj0dds6" path="res://effect_creator.tscn" id="3_ajkxy"]
+[ext_resource type="Script" path="res://scripts/ship.gd" id="1_kqhqt"]
+[ext_resource type="Texture2D" uid="uid://bysymbsarns5t" path="res://resources/ship.png" id="1_otklj"]
+[ext_resource type="PackedScene" uid="uid://caf0xjgj0dds6" path="res://nodes/effect_creator.tscn" id="3_ajkxy"]
 
 [node name="Ship" type="Area2D"]
 z_index = 1
